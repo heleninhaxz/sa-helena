@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #b5b5b5;
+}
+
+header {
+    background: linear-gradient(to bottom right, rgb(165, 0, 180), rgb(88, 0, 136), rgb(92, 27, 255));
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(165, 0, 180), rgb(88, 0, 136), rgb(92, 27, 255));
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 rgb(30, 0, 90);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+nav.menu-lateral:hover {
+    width: 300px;
+}
+
+.btn-expandir > i {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: 0.2s;
+}
+
+ul li.ativo {
+    background-color: rgb(165, 0, 180);
+}
+
+ul li.item-menu:hover {
+    background-color: rgb(165, 0, 180);
+}
+
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+    color: #f4f4f4;
+    font-weight: bolder;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 40px;
+    color: #f4f4f4;
+    font-weight: bolder;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+main {
+    padding: 90px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 40px auto;
+    max-width: 1200px;
+    font-weight: bolder;
+    padding-top: 60px;
+    text-align: center;
+}
+
+h1{
+    color: rgb(38, 0, 144);
+    text-align: center;
+    font-weight: bolder;
+    text-decoration:underline;
+}
+
+h2{
+    color: rgb(38, 0, 144);
+    text-align: center;
+    font-weight: bolder;
+}
+
+h3{
+    color: rgb(38, 0, 144);
+    display: flex;
+    font-weight: bolder;
+}
+
+h4{
+    color: rgb(38, 0, 144);
+    text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
+    color: #4e4e4e;
+    text-align: justify;
+}
+
+.cod-cores{
+    text-align: justify;
+    color: #4e4e4e;
+}
+
+.cod-cores span{
+    color: rgb(38, 0, 144);
+    font-weight: bolder;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#res2, #passos2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    padding: 10px;
+    white-space: pre-wrap;
+    text-align: center;
+    font-weight: bolder;
+}
+
+img{
+    border-radius: 15px;
+}
+
+input {
+    border-radius: 12px;
+    text-align: center;
+    font-size: larger;
+}
+
+video {
+    width: 80%; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção do vídeo */
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.screen {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+.contatos p {
+    color: white;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais svg {
+    margin-right: 8px;
+    fill: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background: linear-gradient(to bottom right, rgb(165, 0, 180), rgb(88, 0, 136), rgb(92, 27, 255));
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: bolder;
+}

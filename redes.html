@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="helenat-removebg-preview.png" type="image/png">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <script src="menu.js" defer></script>
+    <title>TroiaTech</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+        <img src="cursor-t.cur" alt="Logo da TroiaTech" style="height: 50px;"/>
+    </header>
+    <nav class="menu-lateral">
+
+        <div class="btn-expandir">
+            <i class="bi bi-list"></i>
+        </div>
+
+        <ul>
+            <li class="item-menu">
+                <a href="index.html">
+                    <span class="icon"><i class="bi bi-house-door"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="eletroeletronica.html">
+                    <span class="icon"><i class="bi bi-motherboard"></i></span>
+                    <span class="txt-link">Eletroeletrônica</span>
+                </a>
+            </li>
+            <li class="item-menu ativo">
+                <a href="redes.html">
+                    <span class="icon"><i class="bi bi-ethernet"></i></span>
+                    <span class="txt-link">Redes</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="bdados.html">
+                    <span class="icon"><i class="bi bi-database"></i></span>
+                    <span class="txt-link">B.Dados</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="algflux.html">
+                    <span class="icon"><i class="bi bi-bezier2"></i></span>
+                    <span class="txt-link">Alg&Flux</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="prog.html">
+                    <span class="icon"><i class="bi bi-filetype-js"></i></span>
+                    <span class="txt-link">Programação</span>
+                </a>
+            </li>
+        </ul>
+    </nav><br>
+    <main id="conteudo">
+        <h1>Fundamentos de Redes</h1><br><br><br>
+        
+        <section id="servicos" class="servicos">
+            <div class="servico-lista">
+                <div class="servico">
+                    <h3>Roteador</h3>
+                    <p>O roteador é um dispositivo de rede que conecta diferentes redes, como uma LAN à internet. Ele encaminha dados entre essas redes, atribui endereços IP e gerencia o tráfego de informações, garantindo a comunicação eficiente e segura.</p>
+                </div>
+                <div class="servico">
+                    <h3>Host</h3>
+                    <p>Um host é qualquer dispositivo conectado à rede, como computadores, laptops ou impressoras. No Packet Tracer, os hosts podem ser configurados com endereços IP, e sua função é enviar ou receber pacotes de dados pela rede.</p>
+                </div>
+                <div class="servico">
+                    <h3>Cabo de conexão</h3>
+                    <p>O cabo de conexão é utilizado para ligar dispositivos em uma rede, como servidores, switches e hosts. Ele permite a troca de dados entre os dispositivos, sendo os tipos mais comuns o cabo de par trançado e a fibra óptica.</p>
+                </div>
+                <div class="servico">
+                    <h3>Switches</h3>
+                    <p>O switch é um dispositivo de rede que conecta vários dispositivos dentro de uma mesma rede local (LAN). Ele opera na camada 2 do modelo OSI, fazendo com que a comunicação entre dispositivos seja eficiente, enviando pacotes somente para o dispositivo de destino.</p>
+                </div>
+                <div class="servico">
+                    <h3>Servidor</h3>
+                    <p>O servidor é um dispositivo que fornece serviços para outros dispositivos na rede, como compartilhamento de arquivos, websites, ou até serviços de e-mail.</p>
+                </div>
+            </div>
+        </section>
+<br><br><br>
+        <h2>Configurações do Servidor: </h2><br><br>
+        <h3>DNS: </h3><br>
+        <p>O DNS (Domain Name System) é um sistema responsável por traduzir nomes de domínio legíveis, como www.exemplo.com, para endereços IP numéricos, como 192.168.1.1, que são utilizados para localizar servidores na internet. Essencialmente, o DNS atua como uma "agenda telefônica" da internet, permitindo que os usuários acessem websites utilizando nomes fáceis de lembrar, em vez de números complicados.</p><br><br>
+        <img src="dns.png" alt="">
+        <br><br><br>
+        <h3>DHCP: </h3><br>
+        <p>O DHCP (Dynamic Host Configuration Protocol) é um protocolo de rede que permite que dispositivos em uma rede recebam automaticamente um endereço IP e outras configurações necessárias, como máscara de sub-rede e gateway padrão. Isso elimina a necessidade de configurar manualmente os endereços IP em cada dispositivo, facilitando a gestão de redes e garantindo que cada dispositivo tenha um endereço único e válido para se comunicar na rede.</p>
+        <br>
+        <img src="fundamentos de redes/confiracao_service-dhcp_40_maquinas.png" alt="">
+        <br>
+        <h3>Servidor HTTP: </h3><br>
+        <p>Um servidor HTTP é um tipo de servidor de rede que lida com requisições de clientes, geralmente navegadores de internet, e envia respostas de volta para esses clientes. Ele utiliza o protocolo HTTP (HyperText Transfer Protocol) para facilitar a comunicação entre clientes e servidores. Quando um usuário acessa um site, por exemplo, o navegador faz uma requisição HTTP ao servidor, que então processa essa solicitação e retorna os dados (como páginas web, imagens, etc.) para o navegador, que os exibe para o usuário.</p><br>
+        <img src="http.png" alt=""><br><br><br>
+
+        <h2>Conceito de Servidor: </h2><br>
+        <p>Um servidor é um sistema de computador ou dispositivo que fornece serviços, recursos ou dados para outros computadores, chamados de clientes, em uma rede. Ele pode ser configurado para realizar várias funções, como hospedar sites, armazenar arquivos, gerenciar e-mails, ou executar aplicações. Os servidores geralmente funcionam 24/7 e estão projetados para lidar com múltiplas requisições simultâneas, garantindo a disponibilidade dos serviços para os usuários ou dispositivos conectados. Eles podem ser físicos (hardware dedicado) ou virtuais (emulando servidores em uma infraestrutura de nuvem).</p>
+        <br>
+        <br>
+        <br>
+        <h2>Crimpagem:  </h2><br>
+        <p>A crimpagem de cabos de rede é o processo de preparar e fixar os fios em um conector RJ45 para garantir conexões estáveis e eficientes em redes. Utilizando um alicate de crimpagem, o cabo é cortado no tamanho desejado, e os fios são organizados conforme os padrões T568A ou T568B. O alicate pressiona os fios contra os pinos do conector, garantindo uma conexão segura. Uma crimpagem bem feita é essencial para evitar falhas e garantir o bom desempenho da rede.</p><br>
+        <img src="crimpagem.png" alt=""><br><br>
+        <br>
+        <h2>Cabo de Rede - Pinagem </h2><br>
+            <p>A pinagem de um cabo de rede RJ45 define a ordem dos fios dentro do conector, seguindo os padrões T568A ou T568B. Cada fio transporta sinais elétricos para comunicação entre dispositivos. A disposição correta dos fios é crucial para garantir a eficiência e evitar falhas na rede. A escolha do padrão deve ser consistente em toda a rede para um desempenho adequado.</p><br>
+            <img src="pinagem.png" alt=""><br><br>
+        <br>
+        <h2>Condeito do Modelo OSI </h2><br>
+            <p>O modelo OSI (Open Systems Interconnection) é um modelo teórico que define como os sistemas de comunicação em rede devem funcionar. Ele divide a comunicação em rede em sete camadas, cada uma responsável por uma função específica no processo de transmissão de dados. O objetivo do modelo é padronizar a comunicação entre sistemas, permitindo que diferentes dispositivos e protocolos se comuniquem entre si.</p><br>
+            <h3>As sete camadas do modelo OSI são: </h3><br>
+            <div class="cod-cores">
+        <li><span>Camada Física: </span>Responsável pela transmissão de dados brutos através do meio físico (cabos, fibra ótica, etc.).</li><br>
+        <li><span>Camada de Enlace de Dados:</span>Garante a transferência de dados sem erros entre dispositivos diretamente conectados.</li><br>
+        <li><span>Camada de Rede: </span>Responsável pelo roteamento dos dados entre diferentes redes, utilizando endereços IP.</li><br>
+        <li><span>Camada de Transporte: </span>Garante a entrega correta e ordenada dos dados entre os sistemas finais, com protocolos como TCP e UDP.</li><br>
+        <li><span>Camada de Sessão: </span>Estabelece, mantém e termina sessões de comunicação entre sistemas.</li><br>
+        <li><span>Camada de Apresentação: </span> Trata da formatação e codificação dos dados, garantindo que sejam compreensíveis para o sistema receptor.</li><br>
+        <li><span>Camada de Aplicação: </span>A camada mais próxima do usuário, responsável pela interface direta com os aplicativos, como navegadores e e-mails.</li><br>
+        </div><br><br>
+
+
+        <h2>Conceito do TCP/IP</h2><br>
+        <p>O modelo TCP/IP, também conhecido como suíte de protocolos da Internet, é a base da comunicação de dados em redes, como a Internet. Ele foi desenvolvido para ser flexível, robusto e capaz de interconectar diferentes tipos de redes. O modelo TCP/IP é composto por quatro camadas principais, cada uma com funções específicas:</p><br>
+        <div class="cod-cores">
+
+        <li><span>Camada de Aplicação: </span>Responsável pela comunicação entre aplicativos, como navegadores e servidores.</li><br>
+
+        <li><span>Camada de Transporte: </span>Gerencia a comunicação entre dispositivos, usando protocolos como TCP (garante entrega confiável) e UDP (sem garantia de entrega).</li><br>
+
+        <li><span>Camada de Internet: </span>Responsável pelo endereçamento e roteamento dos pacotes de dados, utilizando o protocolo IP para determinar o caminho na rede.</li><br>
+
+        <li><span>Camada de Acesso à Rede:  </span>Envolvem a transmissão de dados através do meio físico, como cabos e conexões sem fio, e o controle de acesso ao canal de comunicação.</li><br>
+
+
+    </main>
+    <br>
+    <footer>
+        <div class="redes-sociais">
+            <div class="contatos"><p>Entre em contato comigo através das minhas redes sociais:</p></div>
+            <a href="https://github.com/heleninhaxz"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+              </svg></a>  
+            <a href="https://api.whatsapp.com/send?phone=47992936545"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+              </svg></a>  
+            <a href="https://www.google.com/maps/search/sesi+tijucas/@-27.2305002,-48.6326707,19z?entry=ttu&g_ep=EgoyMDI0MDkyOS4wIKXMDSoASAFQAw%3D%3D"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg></a>  
+            <a href="https://www.instagram.com/_hellena.n/profilecard/?igsh=cjJ1dWdlemVoYzZs"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>  
+            <a href="https://www.linkedin.com/in/helena-neis-da-silva-a74561316/"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+              </svg></a>  
+              <a href="https://sites.google.com/estudante.sesisenai.org.br/09042007hnds/in%C3%ADcio"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+              </svg></a>
+                
+              <br><br><br>
+        </div>
+</footer>
+</body>
+</html>
