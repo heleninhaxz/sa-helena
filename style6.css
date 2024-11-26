@@ -179,26 +179,12 @@ video {
     margin-top: 20px;
 }
 
-.screen {
-    font-family: Arial, sans-serif;
-    padding: 10px;
-    background-color: #f1f1f1;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
-td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
+
 
 
 .contatos p {
